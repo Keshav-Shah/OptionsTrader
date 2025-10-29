@@ -42,7 +42,7 @@ if __name__ == "__main__":
         "ETN","PSA"
     ][:100]
 
-    shift_days = 3  # example shift
+    shift_days = 0  # example shift
     df = compute_all_shifted_correlations(tickers, shift_days=shift_days)
 
     # Save results

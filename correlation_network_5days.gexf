@@ -1,0 +1,3294 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-10-29">
+    <creator>NetworkX 3.5</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="3" title="shift" type="long" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="out_degree" type="long" />
+      <attribute id="1" title="in_degree" type="long" />
+      <attribute id="2" title="influence_score" type="long" />
+    </attributes>
+    <nodes>
+      <node id="MSFT" label="MSFT">
+        <attvalues>
+          <attvalue for="0" value="16" />
+          <attvalue for="1" value="21" />
+          <attvalue for="2" value="-5" />
+        </attvalues>
+      </node>
+      <node id="NVDA" label="NVDA">
+        <attvalues>
+          <attvalue for="0" value="16" />
+          <attvalue for="1" value="19" />
+          <attvalue for="2" value="-3" />
+        </attvalues>
+      </node>
+      <node id="META" label="META">
+        <attvalues>
+          <attvalue for="0" value="11" />
+          <attvalue for="1" value="9" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="JPM" label="JPM">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="16" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </node>
+      <node id="UNH" label="UNH">
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="7" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </node>
+      <node id="AVGO" label="AVGO">
+        <attvalues>
+          <attvalue for="0" value="18" />
+          <attvalue for="1" value="18" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </node>
+      <node id="ORCL" label="ORCL">
+        <attvalues>
+          <attvalue for="0" value="18" />
+          <attvalue for="1" value="17" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="CSCO" label="CSCO">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="12" />
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </node>
+      <node id="AMD" label="AMD">
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="8" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="CAT" label="CAT">
+        <attvalues>
+          <attvalue for="0" value="13" />
+          <attvalue for="1" value="14" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </node>
+      <node id="MS" label="MS">
+        <attvalues>
+          <attvalue for="0" value="19" />
+          <attvalue for="1" value="19" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </node>
+      <node id="GS" label="GS">
+        <attvalues>
+          <attvalue for="0" value="20" />
+          <attvalue for="1" value="21" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </node>
+      <node id="RTX" label="RTX">
+        <attvalues>
+          <attvalue for="0" value="18" />
+          <attvalue for="1" value="17" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="BLK" label="BLK">
+        <attvalues>
+          <attvalue for="0" value="16" />
+          <attvalue for="1" value="13" />
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </node>
+      <node id="GE" label="GE">
+        <attvalues>
+          <attvalue for="0" value="19" />
+          <attvalue for="1" value="22" />
+          <attvalue for="2" value="-3" />
+        </attvalues>
+      </node>
+      <node id="ADI" label="ADI">
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </node>
+      <node id="ELV" label="ELV">
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="7" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="BKNG" label="BKNG">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="-3" />
+        </attvalues>
+      </node>
+      <node id="C" label="C">
+        <attvalues>
+          <attvalue for="0" value="21" />
+          <attvalue for="1" value="21" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </node>
+      <node id="LRCX" label="LRCX">
+        <attvalues>
+          <attvalue for="0" value="14" />
+          <attvalue for="1" value="17" />
+          <attvalue for="2" value="-3" />
+        </attvalues>
+      </node>
+      <node id="SCHW" label="SCHW">
+        <attvalues>
+          <attvalue for="0" value="12" />
+          <attvalue for="1" value="16" />
+          <attvalue for="2" value="-4" />
+        </attvalues>
+      </node>
+      <node id="NSC" label="NSC">
+        <attvalues>
+          <attvalue for="0" value="12" />
+          <attvalue for="1" value="10" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="EMR" label="EMR">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </node>
+      <node id="COF" label="COF">
+        <attvalues>
+          <attvalue for="0" value="12" />
+          <attvalue for="1" value="13" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </node>
+      <node id="GOOGL" label="GOOGL">
+        <attvalues>
+          <attvalue for="0" value="14" />
+          <attvalue for="1" value="9" />
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </node>
+      <node id="AXP" label="AXP">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </node>
+      <node id="CL" label="CL">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </node>
+      <node id="MMC" label="MMC">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="5" />
+          <attvalue for="2" value="-5" />
+        </attvalues>
+      </node>
+      <node id="GM" label="GM">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </node>
+      <node id="CSX" label="CSX">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </node>
+      <node id="NFLX" label="NFLX">
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="13" />
+          <attvalue for="2" value="-4" />
+        </attvalues>
+      </node>
+      <node id="PM" label="PM">
+        <attvalues>
+          <attvalue for="0" value="13" />
+          <attvalue for="1" value="11" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="REGN" label="REGN">
+        <attvalues>
+          <attvalue for="0" value="11" />
+          <attvalue for="1" value="11" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </node>
+      <node id="BDX" label="BDX">
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="5" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="CME" label="CME">
+        <attvalues>
+          <attvalue for="0" value="16" />
+          <attvalue for="1" value="13" />
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </node>
+      <node id="ABT" label="ABT">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="6" />
+          <attvalue for="2" value="-4" />
+        </attvalues>
+      </node>
+      <node id="V" label="V">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="-3" />
+        </attvalues>
+      </node>
+      <node id="HD" label="HD">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </node>
+      <node id="LOW" label="LOW">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </node>
+      <node id="MA" label="MA">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="KO" label="KO">
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="MRK" label="MRK">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="8" />
+          <attvalue for="2" value="-3" />
+        </attvalues>
+      </node>
+      <node id="DHR" label="DHR">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="8" />
+          <attvalue for="2" value="-4" />
+        </attvalues>
+      </node>
+      <node id="T" label="T">
+        <attvalues>
+          <attvalue for="0" value="13" />
+          <attvalue for="1" value="13" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </node>
+      <node id="FDX" label="FDX">
+        <attvalues>
+          <attvalue for="0" value="8" />
+          <attvalue for="1" value="10" />
+          <attvalue for="2" value="-2" />
+        </attvalues>
+      </node>
+      <node id="ABBV" label="ABBV">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </node>
+      <node id="MDT" label="MDT">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </node>
+      <node id="CVS" label="CVS">
+        <attvalues>
+          <attvalue for="0" value="8" />
+          <attvalue for="1" value="6" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="DIS" label="DIS">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="ADBE" label="ADBE">
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="5" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="ACN" label="ACN">
+        <attvalues>
+          <attvalue for="0" value="13" />
+          <attvalue for="1" value="9" />
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </node>
+      <node id="CRM" label="CRM">
+        <attvalues>
+          <attvalue for="0" value="13" />
+          <attvalue for="1" value="9" />
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </node>
+      <node id="UPS" label="UPS">
+        <attvalues>
+          <attvalue for="0" value="14" />
+          <attvalue for="1" value="14" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </node>
+      <node id="GILD" label="GILD">
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="12" />
+          <attvalue for="2" value="-3" />
+        </attvalues>
+      </node>
+      <node id="ZTS" label="ZTS">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </node>
+      <node id="TGT" label="TGT">
+        <attvalues>
+          <attvalue for="0" value="12" />
+          <attvalue for="1" value="9" />
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </node>
+      <node id="ISRG" label="ISRG">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </node>
+      <node id="MO" label="MO">
+        <attvalues>
+          <attvalue for="0" value="11" />
+          <attvalue for="1" value="10" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="SO" label="SO">
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="8" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="DUK" label="DUK">
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="9" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </node>
+      <node id="IBM" label="IBM">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="TMO" label="TMO">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </node>
+      <node id="NEE" label="NEE">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="INTC" label="INTC">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </node>
+      <node id="DE" label="DE">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="-2" />
+        </attvalues>
+      </node>
+      <node id="USB" label="USB">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </node>
+      <node id="PNC" label="PNC">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="MSFT" target="NVDA" id="0" weight="0.88251355397501">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="MSFT" target="JPM" id="1" weight="0.8507519141965684">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="MSFT" target="UNH" id="2" weight="-0.8092596552223629">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="MSFT" target="AVGO" id="3" weight="0.8644585547182481">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="MSFT" target="ORCL" id="4" weight="0.8532174861986451">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="MSFT" target="CSCO" id="5" weight="0.8182586441905799">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="MSFT" target="MS" id="6" weight="0.811796343357843">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="MSFT" target="GS" id="7" weight="0.8497819780043626">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="MSFT" target="RTX" id="8" weight="0.8229626127957042">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="MSFT" target="BLK" id="9" weight="0.8170920556838116">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="MSFT" target="GE" id="10" weight="0.85592000800316">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="MSFT" target="ELV" id="11" weight="-0.8344002280623694">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="MSFT" target="BKNG" id="12" weight="0.8584561974342161">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="MSFT" target="C" id="13" weight="0.8351720446236981">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="MSFT" target="SCHW" id="14" weight="0.8953752946300843">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="MSFT" target="COF" id="15" weight="0.8204595867509733">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="NVDA" target="MSFT" id="16" weight="0.9302863345233359">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="NVDA" target="JPM" id="17" weight="0.8299274267771761">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="NVDA" target="AVGO" id="18" weight="0.866819360823169">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="NVDA" target="ORCL" id="19" weight="0.9122784584668949">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="NVDA" target="AMD" id="20" weight="0.8670224521932716">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="NVDA" target="CAT" id="21" weight="0.8701656679312928">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="NVDA" target="MS" id="22" weight="0.8627018548603212">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="NVDA" target="GS" id="23" weight="0.8783787740033719">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="NVDA" target="BLK" id="24" weight="0.8985129445001233">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="NVDA" target="GE" id="25" weight="0.8115805381297856">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="NVDA" target="ELV" id="26" weight="-0.8565183589385417">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="NVDA" target="C" id="27" weight="0.8504816941509742">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="NVDA" target="LRCX" id="28" weight="0.83219847666848">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="NVDA" target="SCHW" id="29" weight="0.8131454775212168">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="NVDA" target="MMC" id="30" weight="-0.816524218444933">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="NVDA" target="NSC" id="31" weight="0.8856561948679703">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="META" target="MSFT" id="32" weight="0.855041233778225">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="META" target="JPM" id="33" weight="0.8912208784716894">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="META" target="AVGO" id="34" weight="0.858417657678254">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="META" target="CSCO" id="35" weight="0.8612844069104268">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="META" target="MS" id="36" weight="0.8442611929770208">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="META" target="GS" id="37" weight="0.8741357253162879">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="META" target="GE" id="38" weight="0.8244383026430981">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="META" target="ELV" id="39" weight="-0.8095668822155604">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="META" target="C" id="40" weight="0.8852363931660592">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="META" target="SCHW" id="41" weight="0.8582429412934975">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="META" target="COF" id="42" weight="0.8887755223432177">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="JPM" target="MSFT" id="43" weight="0.8831910880053666">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="JPM" target="NVDA" id="44" weight="0.8338167720985151">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="JPM" target="META" id="45" weight="0.8602354614735092">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="JPM" target="AVGO" id="46" weight="0.9244401918120903">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="JPM" target="ORCL" id="47" weight="0.8601651189069456">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="JPM" target="CSCO" id="48" weight="0.8625522884135388">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="JPM" target="NFLX" id="49" weight="0.8199991363585388">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="JPM" target="MS" id="50" weight="0.8847369139938513">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="JPM" target="GS" id="51" weight="0.9238960922377291">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="JPM" target="RTX" id="52" weight="0.882335895216984">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="JPM" target="GE" id="53" weight="0.912991815053112">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="JPM" target="C" id="54" weight="0.9310204876149574">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="JPM" target="LRCX" id="55" weight="0.8474444066683602">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="JPM" target="SCHW" id="56" weight="0.8909293265597064">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="JPM" target="COF" id="57" weight="0.9014112531748765">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="UNH" target="NFLX" id="58" weight="-0.9240948108455398">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="UNH" target="PM" id="59" weight="-0.8490171706595718">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="UNH" target="REGN" id="60" weight="0.8328241323995803">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="UNH" target="SCHW" id="61" weight="-0.831427767675971">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="UNH" target="BDX" id="62" weight="0.8928900947508086">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="UNH" target="CME" id="63" weight="-0.874948508375179">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="AVGO" target="MSFT" id="64" weight="0.9032984439967806">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="AVGO" target="GOOGL" id="65" weight="0.8135968419294605">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="AVGO" target="NVDA" id="66" weight="0.8390786783869352">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="AVGO" target="META" id="67" weight="0.8272415074927002">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="AVGO" target="JPM" id="68" weight="0.8961316708922041">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="AVGO" target="ORCL" id="69" weight="0.8585829291767328">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="AVGO" target="CSCO" id="70" weight="0.8435207383995595">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="AVGO" target="MS" id="71" weight="0.8505361914182428">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="AVGO" target="GS" id="72" weight="0.894335224307005">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="AVGO" target="RTX" id="73" weight="0.8655344152254018">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="AVGO" target="BLK" id="74" weight="0.8146309400886652">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="AVGO" target="GE" id="75" weight="0.8902026889613637">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="AVGO" target="ELV" id="76" weight="-0.8216211226444716">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="AVGO" target="C" id="77" weight="0.9048288529322964">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="AVGO" target="LRCX" id="78" weight="0.871492255267248">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="AVGO" target="SCHW" id="79" weight="0.8428802459007574">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="AVGO" target="MMC" id="80" weight="-0.8019021416943434">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="AVGO" target="COF" id="81" weight="0.8296184965272269">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="ORCL" target="MSFT" id="82" weight="0.8894769003483695">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="ORCL" target="GOOGL" id="83" weight="0.8294385234792991">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="ORCL" target="NVDA" id="84" weight="0.9106324896520069">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="ORCL" target="JPM" id="85" weight="0.8760690483819096">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="ORCL" target="AVGO" id="86" weight="0.8944943759334125">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="ORCL" target="CSCO" id="87" weight="0.8020882756366748">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="ORCL" target="AMD" id="88" weight="0.8383858684311758">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="ORCL" target="CAT" id="89" weight="0.8709469405025902">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="ORCL" target="MS" id="90" weight="0.8959782533845071">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="ORCL" target="GS" id="91" weight="0.9193344501477868">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="ORCL" target="RTX" id="92" weight="0.8504092253198817">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="ORCL" target="BLK" id="93" weight="0.8765750410142583">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="ORCL" target="GE" id="94" weight="0.8630285317934803">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="ORCL" target="C" id="95" weight="0.8920807160045666">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="ORCL" target="LRCX" id="96" weight="0.890929993598292">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="ORCL" target="SCHW" id="97" weight="0.8119112491517627">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="ORCL" target="NSC" id="98" weight="0.88441856780266">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="ORCL" target="COF" id="99" weight="0.8279508381711399">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="CSCO" target="MSFT" id="100" weight="0.8707804005552454">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="CSCO" target="META" id="101" weight="0.8813939844596062">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="CSCO" target="JPM" id="102" weight="0.9173064572364745">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="CSCO" target="UNH" id="103" weight="-0.8355768614880669">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="CSCO" target="AVGO" id="104" weight="0.8818877899184825">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="CSCO" target="ORCL" id="105" weight="0.808090214900319">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="CSCO" target="NFLX" id="106" weight="0.8603163988346112">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="CSCO" target="MS" id="107" weight="0.8240603901627421">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="CSCO" target="GS" id="108" weight="0.8772392708615115">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="CSCO" target="RTX" id="109" weight="0.8866935956756509">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="CSCO" target="GE" id="110" weight="0.919391558878853">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="CSCO" target="C" id="111" weight="0.8885786809676379">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="CSCO" target="LRCX" id="112" weight="0.8289246146985672">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="CSCO" target="SCHW" id="113" weight="0.8903706571452304">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="CSCO" target="COF" id="114" weight="0.8579267282547622">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="AMD" target="MSFT" id="115" weight="0.8155076782234899">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="AMD" target="NVDA" id="116" weight="0.8819355370294585">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="AMD" target="ORCL" id="117" weight="0.8803827785920395">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="AMD" target="NEE" id="118" weight="0.8064901794716505">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="AMD" target="CAT" id="119" weight="0.9301737834467894">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="AMD" target="MS" id="120" weight="0.8008625410277238">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="AMD" target="BLK" id="121" weight="0.861835371895439">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="AMD" target="LRCX" id="122" weight="0.8742623684854268">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="AMD" target="NSC" id="123" weight="0.8658850776875707">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="CAT" target="MSFT" id="124" weight="0.8228722747318117">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="CAT" target="GOOGL" id="125" weight="0.8607147561678485">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="CAT" target="NVDA" id="126" weight="0.9027492453216458">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="CAT" target="AVGO" id="127" weight="0.8191833183885406">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="CAT" target="ORCL" id="128" weight="0.9247071446270589">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="CAT" target="AMD" id="129" weight="0.9196191500273067">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="CAT" target="MS" id="130" weight="0.8789061174458916">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="CAT" target="GS" id="131" weight="0.8567592118228675">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="CAT" target="BLK" id="132" weight="0.8955521064860287">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="CAT" target="C" id="133" weight="0.8165846358412705">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="CAT" target="LRCX" id="134" weight="0.8925102779997836">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="CAT" target="GM" id="135" weight="0.8387300676715614">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="CAT" target="NSC" id="136" weight="0.895373175954684">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="MS" target="MSFT" id="137" weight="0.8687218035358105">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="MS" target="GOOGL" id="138" weight="0.8530975182454147">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="MS" target="NVDA" id="139" weight="0.8920705814619764">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="MS" target="META" id="140" weight="0.8079090562335967">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="MS" target="JPM" id="141" weight="0.8772524419623148">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="MS" target="AVGO" id="142" weight="0.8957029349362877">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="MS" target="ORCL" id="143" weight="0.9021656231655428">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="MS" target="AMD" id="144" weight="0.8188025584490598">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="MS" target="CAT" id="145" weight="0.8737044604566966">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="MS" target="GS" id="146" weight="0.9168319702490325">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="MS" target="BLK" id="147" weight="0.8669120499000332">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="MS" target="GE" id="148" weight="0.8192054835090764">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="MS" target="C" id="149" weight="0.892988397978526">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="MS" target="LRCX" id="150" weight="0.8659151283214633">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="MS" target="AXP" id="151" weight="0.8532219946592133">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="MS" target="CL" id="152" weight="-0.8065660112182163">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="MS" target="MMC" id="153" weight="-0.8010420234210943">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="MS" target="NSC" id="154" weight="0.8638984908111499">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="MS" target="COF" id="155" weight="0.8515218969839806">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="GS" target="MSFT" id="156" weight="0.9036655134247814">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="GS" target="GOOGL" id="157" weight="0.8173259305122357">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="GS" target="NVDA" id="158" weight="0.9015882997494482">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="GS" target="META" id="159" weight="0.864839344308493">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="GS" target="JPM" id="160" weight="0.9339013660164238">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="GS" target="AVGO" id="161" weight="0.9301789356163154">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="GS" target="ORCL" id="162" weight="0.9205399108572435">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="GS" target="CSCO" id="163" weight="0.8469350767013655">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="GS" target="CAT" id="164" weight="0.8361934575950967">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="GS" target="MS" id="165" weight="0.9310721717561262">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="GS" target="RTX" id="166" weight="0.8604977359515013">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="GS" target="BLK" id="167" weight="0.8644755752462443">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="GS" target="GE" id="168" weight="0.8841103220821501">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="GS" target="ELV" id="169" weight="-0.8243005795701557">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="GS" target="C" id="170" weight="0.9432025822812504">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="GS" target="LRCX" id="171" weight="0.8765796389817995">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="GS" target="SCHW" id="172" weight="0.8615365159333618">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="GS" target="AXP" id="173" weight="0.8298115623829498">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="GS" target="NSC" id="174" weight="0.8610110994174165">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="GS" target="COF" id="175" weight="0.8999270314316244">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="RTX" target="MSFT" id="176" weight="0.8347791942717789">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="RTX" target="JPM" id="177" weight="0.8900291341382002">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="RTX" target="UNH" id="178" weight="-0.8002713161636263">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="RTX" target="AVGO" id="179" weight="0.8869348316904156">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="RTX" target="ORCL" id="180" weight="0.8395561688440882">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="RTX" target="ACN" id="181" weight="-0.8462971078835343">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="RTX" target="CSCO" id="182" weight="0.8901095871318736">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="RTX" target="NFLX" id="183" weight="0.8199753435299908">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="RTX" target="UPS" id="184" weight="-0.8055236529169921">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="RTX" target="GS" id="185" weight="0.859636006411039">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="RTX" target="GE" id="186" weight="0.9655843916339703">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="RTX" target="GILD" id="187" weight="0.8222463411740162">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="RTX" target="C" id="188" weight="0.8927012223648426">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="RTX" target="LRCX" id="189" weight="0.8809804840557943">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="RTX" target="MO" id="190" weight="0.8874720221039591">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="RTX" target="SCHW" id="191" weight="0.8781768118510259">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="RTX" target="SO" id="192" weight="0.8506357897079309">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="RTX" target="DUK" id="193" weight="0.8137352415722019">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="BLK" target="MSFT" id="194" weight="0.9027535868524289">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="BLK" target="NVDA" id="195" weight="0.9401889733122532">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="BLK" target="JPM" id="196" weight="0.8013063394671979">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="BLK" target="AVGO" id="197" weight="0.8307879724508052">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="BLK" target="ORCL" id="198" weight="0.9138141500472915">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="BLK" target="AMD" id="199" weight="0.8688813437080971">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="BLK" target="CAT" id="200" weight="0.900657030052015">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="BLK" target="MS" id="201" weight="0.8706236220966345">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="BLK" target="GS" id="202" weight="0.8782634836321676">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="BLK" target="ELV" id="203" weight="-0.8240755321176066">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="BLK" target="C" id="204" weight="0.8426265418792379">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="BLK" target="LRCX" id="205" weight="0.8133353832690448">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="BLK" target="MMC" id="206" weight="-0.8189834937216451">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="BLK" target="GM" id="207" weight="0.81731319083132">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="BLK" target="NSC" id="208" weight="0.8984037689623672">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="BLK" target="EMR" id="209" weight="0.8064397052622486">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="GE" target="MSFT" id="210" weight="0.8583454969135424">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="GE" target="META" id="211" weight="0.8038143628501094">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="GE" target="JPM" id="212" weight="0.9196293981200065">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="GE" target="UNH" id="213" weight="-0.8388272076018026">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="GE" target="AVGO" id="214" weight="0.910468080629425">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="GE" target="ORCL" id="215" weight="0.836050936919459">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="GE" target="ACN" id="216" weight="-0.8245149584071675">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="GE" target="CSCO" id="217" weight="0.889812292282072">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="GE" target="NFLX" id="218" weight="0.8701714715616695">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="GE" target="UPS" id="219" weight="-0.8333845398566937">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="GE" target="MS" id="220" weight="0.8118198557936178">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="GE" target="GS" id="221" weight="0.876189833512621">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="GE" target="RTX" id="222" weight="0.9544115193907049">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="GE" target="C" id="223" weight="0.8968158947734234">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="GE" target="LRCX" id="224" weight="0.8778776794772306">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="GE" target="MO" id="225" weight="0.8895561521962411">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="GE" target="SCHW" id="226" weight="0.9051427004904309">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="GE" target="SO" id="227" weight="0.8213681068213432">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="GE" target="COF" id="228" weight="0.8226462715029658">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="ADI" target="MSFT" id="229" weight="0.8106125183239515">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="ADI" target="NVDA" id="230" weight="0.8066618729083314">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="ADI" target="META" id="231" weight="0.8151925078387773">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="ADI" target="MS" id="232" weight="0.8096746199663387">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="ADI" target="GS" id="233" weight="0.8078809510537154">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="ADI" target="COF" id="234" weight="0.8022264005139756">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="ELV" target="MSFT" id="235" weight="-0.8826653493947502">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="ELV" target="NVDA" id="236" weight="-0.848846333777474">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="ELV" target="GS" id="237" weight="-0.8084337852528964">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="ELV" target="BLK" id="238" weight="-0.8132078905640139">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="ELV" target="BKNG" id="239" weight="-0.824398084745589">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="ELV" target="C" id="240" weight="-0.8147524460029841">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="ELV" target="SCHW" id="241" weight="-0.8310133019126131">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="ELV" target="EMR" id="242" weight="-0.8269053686306574">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="ELV" target="COF" id="243" weight="-0.8215166181075528">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="C" target="MSFT" id="244" weight="0.8921556518383467">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="C" target="GOOGL" id="245" weight="0.8031414036869385">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="C" target="NVDA" id="246" weight="0.8809391206116992">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="C" target="META" id="247" weight="0.8822853110535865">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="C" target="JPM" id="248" weight="0.9432107792324732">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="C" target="AVGO" id="249" weight="0.9466985603137098">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="C" target="ORCL" id="250" weight="0.8996297997201991">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="C" target="CSCO" id="251" weight="0.8743688178932613">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="C" target="CAT" id="252" weight="0.8022094488599816">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="C" target="MS" id="253" weight="0.9103582582333072">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="C" target="GS" id="254" weight="0.9497241844965972">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="C" target="RTX" id="255" weight="0.8789646875079088">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="C" target="BLK" id="256" weight="0.843185908062645">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="C" target="GE" id="257" weight="0.9015072547828565">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="C" target="ELV" id="258" weight="-0.8461369455339757">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="C" target="LRCX" id="259" weight="0.868758387412208">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="C" target="SCHW" id="260" weight="0.8714183016452087">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="C" target="AXP" id="261" weight="0.803053215260827">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="C" target="CL" id="262" weight="-0.8067949368045572">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="C" target="NSC" id="263" weight="0.8194725678124927">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="C" target="COF" id="264" weight="0.9032109848125971">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LRCX" target="MSFT" id="265" weight="0.813277573589209">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LRCX" target="GOOGL" id="266" weight="0.859443654012802">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LRCX" target="NVDA" id="267" weight="0.8142275600170508">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LRCX" target="JPM" id="268" weight="0.8707291075356169">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LRCX" target="AVGO" id="269" weight="0.9071231828360151">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LRCX" target="ORCL" id="270" weight="0.9088015011532818">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LRCX" target="CAT" id="271" weight="0.854903719371418">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LRCX" target="MS" id="272" weight="0.8758925543328965">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LRCX" target="GS" id="273" weight="0.890188847525432">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LRCX" target="RTX" id="274" weight="0.8611191196622755">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LRCX" target="GE" id="275" weight="0.8921767057113031">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LRCX" target="C" id="276" weight="0.877571080080447">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LRCX" target="CL" id="277" weight="-0.8345906858529714">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LRCX" target="NSC" id="278" weight="0.8067460070876801">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="SCHW" target="MSFT" id="279" weight="0.8872915391280833">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="SCHW" target="JPM" id="280" weight="0.8729964087717396">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="SCHW" target="UNH" id="281" weight="-0.8396240249252945">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="SCHW" target="AVGO" id="282" weight="0.8137447568923564">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="SCHW" target="CSCO" id="283" weight="0.8411509577348111">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="SCHW" target="NFLX" id="284" weight="0.8609595163230236">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="SCHW" target="GS" id="285" weight="0.8291384723468643">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="SCHW" target="RTX" id="286" weight="0.8727533845173747">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="SCHW" target="GE" id="287" weight="0.9030701020606194">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="SCHW" target="C" id="288" weight="0.8362559975107625">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="SCHW" target="MO" id="289" weight="0.8079995761625686">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="SCHW" target="COF" id="290" weight="0.8296170673114229">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="NSC" target="MSFT" id="291" weight="0.8500491150431705">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="NSC" target="NVDA" id="292" weight="0.9219421187136685">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="NSC" target="JPM" id="293" weight="0.8197111622740433">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="NSC" target="ORCL" id="294" weight="0.9125400691549114">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="NSC" target="AMD" id="295" weight="0.8459426415405908">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="NSC" target="CAT" id="296" weight="0.8862580500293492">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="NSC" target="MS" id="297" weight="0.8882366625556323">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="NSC" target="GS" id="298" weight="0.8784325281238161">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="NSC" target="BLK" id="299" weight="0.8784254438555908">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="NSC" target="C" id="300" weight="0.8438373612280452">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="NSC" target="LRCX" id="301" weight="0.818216266607211">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="NSC" target="GM" id="302" weight="0.8032798603115482">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="EMR" target="MSFT" id="303" weight="0.8028002652398972">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="EMR" target="NVDA" id="304" weight="0.8048701412379353">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="EMR" target="DIS" id="305" weight="0.8255894840250024">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="COF" target="MSFT" id="306" weight="0.8606943895627687">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="COF" target="NVDA" id="307" weight="0.8204019248872532">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="COF" target="META" id="308" weight="0.8335962118550009">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="COF" target="JPM" id="309" weight="0.8822916848948619">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="COF" target="AVGO" id="310" weight="0.8532056714409223">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="COF" target="ORCL" id="311" weight="0.8006790165514472">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="COF" target="CSCO" id="312" weight="0.8033308875229987">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="COF" target="MS" id="313" weight="0.8554168300842944">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="COF" target="GS" id="314" weight="0.8720837281426592">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="COF" target="GE" id="315" weight="0.8128812108257711">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="COF" target="C" id="316" weight="0.868706614404011">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="COF" target="SCHW" id="317" weight="0.8468362596929523">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="GOOGL" target="NVDA" id="318" weight="0.8127105686793281">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="GOOGL" target="AVGO" id="319" weight="0.8507014230815222">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="GOOGL" target="ORCL" id="320" weight="0.850716714490843">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="GOOGL" target="AMD" id="321" weight="0.8000572271839654">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="GOOGL" target="CAT" id="322" weight="0.8778666177773904">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="GOOGL" target="MS" id="323" weight="0.8563715251252494">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="GOOGL" target="GS" id="324" weight="0.8349292390442633">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="GOOGL" target="BLK" id="325" weight="0.8426945551638373">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="GOOGL" target="C" id="326" weight="0.8226678092402354">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="GOOGL" target="LRCX" id="327" weight="0.8437472642434041">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="GOOGL" target="AXP" id="328" weight="0.8052544842274675">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="GOOGL" target="CL" id="329" weight="-0.8338739665745021">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="GOOGL" target="MMC" id="330" weight="-0.8242445503689129">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="GOOGL" target="GM" id="331" weight="0.8105193955134979">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="AXP" target="GOOGL" id="332" weight="0.8023413511819665">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="AXP" target="CAT" id="333" weight="0.8067611628322734">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="AXP" target="MS" id="334" weight="0.8587956711596164">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="AXP" target="GS" id="335" weight="0.8028178134205299">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="CL" target="GOOGL" id="336" weight="-0.8828229221428477">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="CL" target="AVGO" id="337" weight="-0.8460612131098838">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="CL" target="C" id="338" weight="-0.815020917004871">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="CL" target="LRCX" id="339" weight="-0.8410853386291579">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="GM" target="NVDA" id="340" weight="0.8021979716666656">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="GM" target="AMD" id="341" weight="0.8590410859885574">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="GM" target="CAT" id="342" weight="0.8637259728082007">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="GM" target="BLK" id="343" weight="0.8116645751419543">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="CSX" target="NVDA" id="344" weight="0.811579209645112">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="CSX" target="CAT" id="345" weight="0.8171294401212685">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="CSX" target="NSC" id="346" weight="0.8243564902918642">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="NFLX" target="UNH" id="347" weight="-0.8986853922474505">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="NFLX" target="UPS" id="348" weight="-0.8245831611435561">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="NFLX" target="PM" id="349" weight="0.8615115456727944">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="NFLX" target="GE" id="350" weight="0.8191327488856285">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="NFLX" target="REGN" id="351" weight="-0.8695699157242304">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="NFLX" target="T" id="352" weight="0.8085534774536894">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="NFLX" target="SCHW" id="353" weight="0.8429790441646181">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="NFLX" target="BDX" id="354" weight="-0.8638541553478756">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="NFLX" target="CME" id="355" weight="0.846464673005208">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="PM" target="V" id="356" weight="0.8220279254939057">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="PM" target="KO" id="357" weight="0.879597723944704">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="PM" target="MRK" id="358" weight="-0.9054068997112571">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="PM" target="DHR" id="359" weight="-0.8546401980603268">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="PM" target="NFLX" id="360" weight="0.8379059861471514">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="PM" target="ABT" id="361" weight="0.8536684636543472">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="PM" target="DE" id="362" weight="0.8102261911132527">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="PM" target="REGN" id="363" weight="-0.8671358149661664">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="PM" target="T" id="364" weight="0.8882970607116466">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="PM" target="TGT" id="365" weight="-0.83150963121306">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="PM" target="BDX" id="366" weight="-0.8226728318366386">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="PM" target="CME" id="367" weight="0.9146544456040792">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="PM" target="FDX" id="368" weight="-0.870333786354721">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="REGN" target="MRK" id="369" weight="0.8391480297458976">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="REGN" target="ADBE" id="370" weight="0.8033524301106777">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="REGN" target="DHR" id="371" weight="0.8125065686301173">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="REGN" target="NFLX" id="372" weight="-0.8202543932597129">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="REGN" target="UPS" id="373" weight="0.8308931687528269">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="REGN" target="PM" id="374" weight="-0.8682216688904492">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="REGN" target="T" id="375" weight="-0.8395803171239172">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="REGN" target="TGT" id="376" weight="0.8695570941412288">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="REGN" target="BDX" id="377" weight="0.8129662639566473">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="REGN" target="CME" id="378" weight="-0.9042019084899707">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="REGN" target="FDX" id="379" weight="0.8630630202019474">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="BDX" target="MRK" id="380" weight="0.8123469486180916">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="BDX" target="NFLX" id="381" weight="-0.8343052385193291">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="BDX" target="TMO" id="382" weight="0.8374747598878666">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="BDX" target="PM" id="383" weight="-0.8728402061813114">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="BDX" target="REGN" id="384" weight="0.811749224096076">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="BDX" target="CME" id="385" weight="-0.8247361101258673">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="CME" target="UNH" id="386" weight="-0.8278124149426376">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="CME" target="V" id="387" weight="0.8018946608797549">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="CME" target="KO" id="388" weight="0.8548831205983243">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="CME" target="MRK" id="389" weight="-0.8557532502362172">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="CME" target="DHR" id="390" weight="-0.8517075707529284">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="CME" target="NFLX" id="391" weight="0.8344509386464165">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="CME" target="ABT" id="392" weight="0.8181715409135273">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="CME" target="UPS" id="393" weight="-0.8277460322256535">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="CME" target="PM" id="394" weight="0.9154188579547685">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="CME" target="DE" id="395" weight="0.8034477750795507">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="CME" target="GILD" id="396" weight="0.8030519986813427">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="CME" target="REGN" id="397" weight="-0.8746868138657855">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="CME" target="T" id="398" weight="0.884452477848351">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="CME" target="TGT" id="399" weight="-0.8802820347471557">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="CME" target="BDX" id="400" weight="-0.8032486270157265">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="CME" target="FDX" id="401" weight="-0.8636781472809587">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="ABT" target="V" id="402" weight="0.8221470890956313">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="ABT" target="T" id="403" weight="0.8218185120594419">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="HD" target="LOW" id="404" weight="0.8567475871931721">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOW" target="HD" id="405" weight="0.8357768966984415">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="MA" target="NFLX" id="406" weight="0.803862980635458">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="KO" target="MRK" id="407" weight="-0.8512305187157128">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="KO" target="DHR" id="408" weight="-0.8510453084915275">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="KO" target="ABT" id="409" weight="0.8057846178807597">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="KO" target="PM" id="410" weight="0.8436455757594887">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="KO" target="CME" id="411" weight="0.8355066057403466">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="KO" target="FDX" id="412" weight="-0.8499668566853003">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="MRK" target="DHR" id="413" weight="0.8517408842822906">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="MRK" target="PM" id="414" weight="-0.8231465019874032">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="MRK" target="REGN" id="415" weight="0.8136475826374817">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="MRK" target="CME" id="416" weight="-0.8282620466703355">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="MRK" target="FDX" id="417" weight="0.8816350852107598">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="DHR" target="MRK" id="418" weight="0.8138065129939176">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="DHR" target="ABT" id="419" weight="-0.813136855057983">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="DHR" target="T" id="420" weight="-0.8442022786320441">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="DHR" target="FDX" id="421" weight="0.8293537696948499">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="T" target="KO" id="422" weight="0.8307769365640276">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="T" target="MRK" id="423" weight="-0.82787516137126">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="T" target="DHR" id="424" weight="-0.8405255895673357">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="T" target="NFLX" id="425" weight="0.8108461841424787">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="T" target="CRM" id="426" weight="-0.8121508336120701">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="T" target="ABT" id="427" weight="0.8499098854400854">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="T" target="UPS" id="428" weight="-0.8363142367387735">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="T" target="PM" id="429" weight="0.8941404155800975">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="T" target="GILD" id="430" weight="0.839588597407612">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="T" target="REGN" id="431" weight="-0.8350913224381045">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="T" target="TGT" id="432" weight="-0.8349187116734962">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="T" target="CME" id="433" weight="0.888509360926624">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="T" target="FDX" id="434" weight="-0.8391495625981867">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="FDX" target="KO" id="435" weight="-0.8598746658791936">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="FDX" target="MRK" id="436" weight="0.8207998514041739">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="FDX" target="DHR" id="437" weight="0.8382750355328199">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="FDX" target="PM" id="438" weight="-0.8077075567535135">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="FDX" target="REGN" id="439" weight="0.8135930864547428">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="FDX" target="T" id="440" weight="-0.8337108238981829">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="FDX" target="TGT" id="441" weight="0.8453419872374203">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="FDX" target="CME" id="442" weight="-0.8489982504561341">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="ABBV" target="MDT" id="443" weight="0.838045462002212">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="MDT" target="C" id="444" weight="0.8253016453922972">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="CVS" target="ABBV" id="445" weight="0.8106157030899344">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="CVS" target="CRM" id="446" weight="-0.8386944086791597">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="CVS" target="RTX" id="447" weight="0.8063135680624071">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="CVS" target="GE" id="448" weight="0.8018953286641404">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="CVS" target="GILD" id="449" weight="0.8397654285322984">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="CVS" target="MO" id="450" weight="0.8399718853402046">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="CVS" target="SO" id="451" weight="0.8362457698702865">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="CVS" target="DUK" id="452" weight="0.8889413580988791">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="DIS" target="BKNG" id="453" weight="0.8007767979021836">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="DIS" target="EMR" id="454" weight="0.839451417853815">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="ADBE" target="ACN" id="455" weight="0.8189940698146715">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="ADBE" target="CRM" id="456" weight="0.8217709718021802">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="ADBE" target="UPS" id="457" weight="0.8440062766181032">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="ADBE" target="GILD" id="458" weight="-0.8069176612654025">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="ADBE" target="REGN" id="459" weight="0.8019670155052535">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="ADBE" target="ZTS" id="460" weight="0.8458366428971731">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="ADBE" target="TGT" id="461" weight="0.8197095392312247">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="ACN" target="ADBE" id="462" weight="0.8336066698072069">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="ACN" target="CRM" id="463" weight="0.9048694994234379">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="ACN" target="UPS" id="464" weight="0.8690404170675395">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="ACN" target="RTX" id="465" weight="-0.8698057607374367">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="ACN" target="ISRG" id="466" weight="0.8505746683987168">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="ACN" target="GE" id="467" weight="-0.8262666005091609">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="ACN" target="GILD" id="468" weight="-0.8330128761269652">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="ACN" target="MO" id="469" weight="-0.9191522546900815">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="ACN" target="T" id="470" weight="-0.8028442815082757">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="ACN" target="SO" id="471" weight="-0.8798974996505057">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="ACN" target="ZTS" id="472" weight="0.8384487226485269">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="ACN" target="DUK" id="473" weight="-0.8688768646367169">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="ACN" target="TGT" id="474" weight="0.8163318114735468">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="CRM" target="ADBE" id="475" weight="0.8621577157435518">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="CRM" target="ACN" id="476" weight="0.8592539418091207">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="CRM" target="UPS" id="477" weight="0.8875664063616424">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="CRM" target="PM" id="478" weight="-0.8098795309521482">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="CRM" target="GILD" id="479" weight="-0.8890950186164936">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="CRM" target="CVS" id="480" weight="-0.8034787439008082">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="CRM" target="MO" id="481" weight="-0.822461842559247">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="CRM" target="T" id="482" weight="-0.8941686767866">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="CRM" target="SO" id="483" weight="-0.8307422947464149">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="CRM" target="DUK" id="484" weight="-0.8364881188174101">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="CRM" target="TGT" id="485" weight="0.8637602330086844">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="CRM" target="CME" id="486" weight="-0.8414919940612537">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="CRM" target="FDX" id="487" weight="0.8198353630236634">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="UPS" target="ADBE" id="488" weight="0.8740290372294579">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="UPS" target="ACN" id="489" weight="0.8596033839802726">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="UPS" target="CRM" id="490" weight="0.8547600290695159">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="UPS" target="RTX" id="491" weight="-0.822184191567408">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="UPS" target="GE" id="492" weight="-0.8149241174518765">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="UPS" target="GILD" id="493" weight="-0.8141523818693908">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="UPS" target="REGN" id="494" weight="0.831376717264014">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="UPS" target="MO" id="495" weight="-0.8664830012615907">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="UPS" target="T" id="496" weight="-0.8835560394817396">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="UPS" target="ZTS" id="497" weight="0.8096746004756546">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="UPS" target="DUK" id="498" weight="-0.8494856132736329">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="UPS" target="TGT" id="499" weight="0.8721068699510304">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="UPS" target="CME" id="500" weight="-0.845778439941897">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="UPS" target="FDX" id="501" weight="0.8088341772027398">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="GILD" target="CSCO" id="502" weight="0.8225882019411772">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="GILD" target="ABT" id="503" weight="0.8244438545389574">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="GILD" target="RTX" id="504" weight="0.8385492792927972">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="GILD" target="GE" id="505" weight="0.8386281809858493">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="GILD" target="CVS" id="506" weight="0.8128648394111443">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="GILD" target="T" id="507" weight="0.8383296636093068">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="GILD" target="SO" id="508" weight="0.8207804628559727">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="GILD" target="DUK" id="509" weight="0.8201898142523592">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="GILD" target="CME" id="510" weight="0.80285968397274">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="ZTS" target="ADBE" id="511" weight="0.8529153163159954">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="ZTS" target="ACN" id="512" weight="0.8201595195763918">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="ZTS" target="UPS" id="513" weight="0.8138328974906219">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="TGT" target="DHR" id="514" weight="0.8560766550984951">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="TGT" target="CRM" id="515" weight="0.8549629747634058">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="TGT" target="UPS" id="516" weight="0.8633723839124728">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="TGT" target="PM" id="517" weight="-0.8326008910762304">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="TGT" target="GILD" id="518" weight="-0.8075821218453205">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="TGT" target="CVS" id="519" weight="-0.8146053414227401">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="TGT" target="REGN" id="520" weight="0.8353105743997784">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="TGT" target="MO" id="521" weight="-0.8036214040607677">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="TGT" target="T" id="522" weight="-0.9003695863195552">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="TGT" target="DUK" id="523" weight="-0.8030423788146772">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="TGT" target="CME" id="524" weight="-0.8611230826614714">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="TGT" target="FDX" id="525" weight="0.8430324852327178">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="MO" target="ACN" id="526" weight="-0.9229217247108713">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="MO" target="CRM" id="527" weight="-0.8610550670324795">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="MO" target="UPS" id="528" weight="-0.8813829413129013">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="MO" target="RTX" id="529" weight="0.9237723390119594">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="MO" target="GE" id="530" weight="0.9099697599846724">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="MO" target="GILD" id="531" weight="0.8398675716811098">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="MO" target="CVS" id="532" weight="0.8431611080134981">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="MO" target="T" id="533" weight="0.8242980947882729">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="MO" target="SCHW" id="534" weight="0.84121150399609">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="MO" target="SO" id="535" weight="0.8913754511998846">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="MO" target="DUK" id="536" weight="0.9018728356208244">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="SO" target="ACN" id="537" weight="-0.8417683093206947">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="SO" target="CRM" id="538" weight="-0.8634045949949481">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="SO" target="UPS" id="539" weight="-0.8083384991015189">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="SO" target="RTX" id="540" weight="0.8762424531959819">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="SO" target="GE" id="541" weight="0.8598332203561784">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="SO" target="GILD" id="542" weight="0.8522368954714916">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="SO" target="CVS" id="543" weight="0.8444899795489174">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="SO" target="MO" id="544" weight="0.844435009557547">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="SO" target="DUK" id="545" weight="0.8682927300946089">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="DUK" target="ACN" id="546" weight="-0.8551771257235872">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="DUK" target="CRM" id="547" weight="-0.8607655461228435">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="DUK" target="UPS" id="548" weight="-0.840579637191609">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="DUK" target="RTX" id="549" weight="0.8493251183409654">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="DUK" target="GE" id="550" weight="0.8265147962457325">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="DUK" target="GILD" id="551" weight="0.8637378951866596">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="DUK" target="CVS" id="552" weight="0.8801179363923737">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="DUK" target="MO" id="553" weight="0.864714990600683">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="DUK" target="SO" id="554" weight="0.9083292873579604">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="IBM" target="NFLX" id="555" weight="0.8259282436051938">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="NEE" target="INTC" id="556" weight="0.8209207747310405">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="NEE" target="CAT" id="557" weight="0.8005519567671473">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="INTC" target="LRCX" id="558" weight="0.8443282904840713">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="USB" target="PNC" id="559" weight="0.8485841695719111">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="PNC" target="USB" id="560" weight="0.8677824596058052">
+        <attvalues>
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

@@ -54,7 +54,7 @@ if __name__ == "__main__":
 
     ticker1 = "AAPL"
     ticker2 = "MSFT"
-    shift_days = 5
+    shift_days = 0
 
     corr = corr_tool.compute(ticker1, ticker2, shift_days)
     print(f"📈 Correlation between {ticker1} and {ticker2} with {shift_days}-day shift: {corr:.4f}")

@@ -65,8 +65,8 @@ class CorrelationGraph:
 
 
 if __name__ == "__main__":
-    beta_threshold = 0.95   # correlation cutoff
-    corr_path = "shifted_correlations_3d.csv"
+    beta_threshold = 0.9   # correlation cutoff
+    corr_path = "shifted_correlations_0d.csv"
 
     cg = CorrelationGraph(corr_path, beta_threshold)
     G = cg.build_graph()
