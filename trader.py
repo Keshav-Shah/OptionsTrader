@@ -16,7 +16,7 @@ transaction_cost_per_trade = 0.0005  # cost fraction per stock traded (round-tri
 # -------------------------------------------------------------
 
 # 1) Download prices and compute daily returns
-prices = yf.download(tickers, start=start, end=end)['Adj Close']
+prices = yf.download(tickers, start=start, end=end)['Close']
 prices = prices.dropna(how='all')  # drop empty rows if any
 returns = prices.pct_change().dropna()  # r_i(t) = (P_t - P_{t-1}) / P_{t-1}
 
