@@ -1,0 +1,68 @@
+STOCK GRAPH PROJECT — FILE OVERVIEW
+
+MAIN PIPELINE STRUCTURE
+-----------------------
+There is NO single “master” file that calls all others automatically.
+Instead, each file is run independently depending on what you want to do.
+
+Typical usage flow:
+1. pullData.py  → fetches stock data from Yahoo Finance and saves stock_data_dict.pkl
+2. calc_correlations.py → loads that pickle, computes all correlations + causal shifts, outputs:
+       - stock_correlations.pkl
+       - stock_correlations.csv
+3. directed_metric.py / leaders_laggers.py → build directed causal graph + visualize
+4. super_cluster.py → cluster stocks using correlation graph + visualize clusters
+5. EV_model.py → builds a graph + propagates expected return signals
+
+CONCISE FILE SUMMARIES
+----------------------
+
+1. pullData.py
+   - Downloads OHLCV data for all tickers from Yahoo Finance.
+   - Saves everything into stock_data_dict.pkl.
+   - No calculations done here (pure data collection).
+
+2. correlation_diagnostic.py
+   - Performs data integrity checks.
+   - Verifies Close column, missing data, date ranges.
+   - Runs a quick small correlation test.
+   - Used before main correlation calculation to ensure data is clean.
+
+3. calc_correlations.py
+   - CORE STATISTICAL ENGINE (the most important file).
+   - Loads stock_data_dict.pkl.
+   - Extracts clean Close prices.
+   - Computes THREE correlations for every stock pair:
+         (a) Standard same‑day correlation
+         (b) Causal (A today vs B + 30 days)
+         (c) Acausal (A today vs B − 30 days)
+   - Builds DataFrame of all results and saves:
+         stock_correlations.pkl
+         stock_correlations.csv
+   - Performs summary analysis (top correlations, leaders, asymmetric pairs).
+
+4. directed_metric.py
+   - Builds a DIRECTED graph from causal/acausal correlations.
+   - Edge direction = stock that moves FIRST → stock that moves AFTER.
+   - Visualizes using Plotly (red edges scaled by influence strength).
+
+5. leaders_laggers.py
+   - Builds another directed graph like directed_metric.py.
+   - Computes “leader score” for each stock:
+         leader_score = outgoing influence − incoming influence
+   - Visualizes leadership/lag maps using a heatmap-style plot.
+
+6. super_cluster.py
+   - Builds an UNDIRECTED correlation graph (only strong correlations kept).
+   - Performs Spectral Clustering to group related stocks.
+   - Finds cluster centers (highest-degree stock in each cluster).
+   - Produces interactive visualization.
+
+7. EV_model.py
+   - Final predictive model.
+   - Builds directed graph from causal correlations.
+   - Fetches recent returns (last N days).
+   - Propagates returns through the graph:
+         EV = alpha * self_return + (1-alpha) * weighted leader return
+   - Performs second-pass propagation.
+   - Ranks top expected winners and losers.

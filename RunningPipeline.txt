@@ -1,0 +1,124 @@
+HOW TO RUN THE FULL STOCK GRAPH PIPELINE
+==========================================
+
+This guide explains how to run every step of the stock correlation and graph-analysis pipeline, from raw data collection to expected value forecasting.
+
+------------------------------------------------------------
+STEP 0 — INSTALL DEPENDENCIES
+------------------------------------------------------------
+Run:
+    pip install yfinance pandas numpy networkx plotly scikit-learn rich
+
+------------------------------------------------------------
+STEP 1 — FETCH RAW STOCK DATA
+File: pullData.py
+------------------------------------------------------------
+Downloads 5 years of Yahoo Finance data for all tickers and saves:
+    stock_data_dict.pkl
+
+Run:
+    python pullData.py
+
+------------------------------------------------------------
+STEP 2 — DIAGNOSE DATA QUALITY (OPTIONAL)
+File: correlation_diagnostic.py
+------------------------------------------------------------
+Checks if dataframes have:
+- Close/Adj Close columns
+- Missing prices
+- Irregular dates
+- NaN issues
+
+Run:
+    python correlation_diagnostic.py
+
+------------------------------------------------------------
+STEP 3 — COMPUTE ALL CORRELATIONS (MAIN ENGINE)
+File: calc_correlations.py
+------------------------------------------------------------
+Loads stock_data_dict.pkl and computes for every stock pair:
+1. Standard correlation       corr(A_t, B_t)
+2. Causal correlation         corr(A_t, B_{t+30})
+3. Acausal correlation        corr(A_t, B_{t-30})
+
+Outputs:
+    stock_correlations.pkl
+    stock_correlations.csv
+
+Run:
+    python calc_correlations.py
+
+------------------------------------------------------------
+STEP 4 — BUILD & VISUALIZE DIRECTED CAUSAL GRAPH
+File: directed_metric.py
+------------------------------------------------------------
+Creates directional edges:
+    A → B  if Stock A historically leads Stock B
+
+Visualizes with Plotly.
+
+Run:
+    python directed_metric.py
+
+------------------------------------------------------------
+STEP 5 — LEADER / LAGGER NETWORK ANALYSIS
+File: leaders_laggers.py
+------------------------------------------------------------
+Computes:
+    leader_score = outgoing influence − incoming influence
+
+Shows which stocks lead the market (leaders) and which follow (laggers).
+
+Run:
+    python leaders_laggers.py
+
+------------------------------------------------------------
+STEP 6 — SPECTRAL CLUSTERING ON CORRELATION GRAPH
+File: super_cluster.py
+------------------------------------------------------------
+Performs:
+- Undirected correlation graph construction
+- Spectral clustering
+- Cluster center detection
+- Interactive plot
+
+Example run:
+    python super_cluster.py --focal ITRI --clusters 12 --threshold 0.8
+
+------------------------------------------------------------
+STEP 7 — EXPECTED VALUE (EV) NETWORK MODEL
+File: EV_model.py
+------------------------------------------------------------
+Steps:
+1. Build directed graph from correlations
+2. Fetch last N days of returns
+3. Propagate expected values:
+       EV = alpha * own_return + (1-alpha) * leader_returns
+4. Perform second-pass propagation
+5. Rank top winners and losers
+
+Run:
+    python EV_model.py
+
+------------------------------------------------------------
+PIPELINE SUMMARY
+------------------------------------------------------------
+
+pullData.py
+    ↓
+stock_data_dict.pkl
+    ↓
+correlation_diagnostic.py (optional)
+    ↓
+calc_correlations.py
+    ↓
+stock_correlations.pkl / csv
+    ↓
+ ┌───────────────────────────┬────────────────────────┬────────────────────────┐
+ │ directed_metric.py        │ leaders_laggers.py     │ super_cluster.py       │
+ │ causal network plot       │ leader/lagger scores   │ spectral clusters      │
+ └───────────────────────────┴────────────────────────┴────────────────────────┘
+    ↓
+EV_model.py
+    ↓
+Expected return forecast based on graph influence
